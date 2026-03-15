@@ -1,0 +1,9 @@
+# WRITE A PYTHON PROGRAM THAT CALCULATES MEAN OF DATASET USING NUMPY
+
+import numpy as np
+
+X = [6,7,8,9,10,11,12]
+
+X_mean = np.mean(X)
+
+print("THE MEAN OF THE DATASET IS :",X_mean)

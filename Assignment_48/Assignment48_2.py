@@ -1,0 +1,22 @@
+# WRITE A PYTHON PROGRAM THAT CALCULATES VARIANCE AND STANDARD DEVIATION OF DATASET USING NUMPY
+
+import numpy as np
+
+X = [6,7,8,9,10,11,12]
+
+X_mean = np.mean(X)
+
+print("THE MEAN OF THE DATASET IS :",X_mean)
+
+# VARIANCE = SUMMISION OF (X - MEAN)**2 / N
+
+X_var = np.sum((X - X_mean)**2)/len(X)
+
+print("THE VARIANCE OF THE DATASET IS :",X_var)
+
+# STANDARD DEVIATION = SQUARE ROOT OF VARIANCE
+
+X_sd = np.sqrt(X_var)
+
+print("THE STANDARD DEVIATION OF DATASET IS :",X_sd)
+
